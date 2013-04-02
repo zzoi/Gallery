@@ -1,0 +1,121 @@
+/*Reset values*/
+html, body, div, 
+img, ul, li, canvas, 
+footer, header, nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+	font-family: Tahoma;
+		background: linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+					linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+					linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+					linear-gradient(45deg, #ECEDDC 25%, transparent 25%);	
+		background-size: 100px 100px;
+		background-color: #EC173A;
+}
+
+nav {
+	position: relative;
+	
+	
+}
+
+nav ul {
+    list-style:none;
+    
+}
+
+#nav {
+	display: block;
+	/*background only works for some browsers*/
+  	background: radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+  	font-size: 17px;
+  	height: 50px;
+}
+
+#nav li {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+#nav a {
+	color:#CCCCCC;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #CCCC00;
+}
+
+.gallery-row {
+	margin: auto;
+}
+
+.dribbble-image {
+	float: left;
+	width: 300px;
+	overflow: hidden;
+	margin: 10px;
+	margin-top: 15px;
+	padding-bottom: 40px;
+	background: #FFFFFF;
+	border: solid #FFFFFF;
+	border-width: 6px 6px 10px 6px;
+	box-shadow: 1px 1px 5px 1px #333333;
+	-webkit-box-shadow: 1px 1px 5px 1px #333333;
+	-moz-box-shadow: 1px 1px 5px 1px #333333;
+	height: 250px;
+}
+
+.dribbble-image img {
+	width: 250px;
+	padding: 20px;
+}
+
+.dribbble-image a{
+	display: block;
+	float: right;
+}
+
+.likes-container {
+	background-image:url('http://dribbble.com/images/icon-hearts.png');
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-right: 15px;
+	height: 13px;
+	font-size: 14px;
+	color: #888888;
+}
+
+.comments-container {
+	background-image: url('http://dribbble.com/images/icon-comments.png');
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-right: 25px;
+	height: 13px;
+	font-size: 14px;
+	color: #888888;
+}
+
+footer {
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	height: 35px;
+  	background-color: #CCCC00;
+  	color:#2C5463;
+  	width: 100%;
+}
